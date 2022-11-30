@@ -22,6 +22,6 @@ for i in range(8):
         val = struct.unpack('<Q',(val))[0]
         sz = (val & 0x00000000ffffffff)
         if(0x20 <=sz <= 0x80):
-            print("found sz : ",sz)
+            print("found sz : ",hex(sz))
             print("addr : "+hex(addr+cur-0x8))
         cur += 8
