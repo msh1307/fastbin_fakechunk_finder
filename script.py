@@ -5,7 +5,7 @@ addr = 0x602000
 length = 0x50 
 bp = 0x400e9c 
 file_name = './secretgarden' 
-
+gdb.execute("source /home/msh/gef/gef.py")
 gdb.execute("file %s"%file_name)
 gdb.execute("b * %s"%hex(bp))
 gdb.execute("r")
