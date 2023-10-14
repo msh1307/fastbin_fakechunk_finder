@@ -1,0 +1,52 @@
+# fastbin_fakechunk_finder
+find fake heap chunk (fastbin)
+```
+gef➤  source ./fastbin_fakechunk_finder/script.py
+addr hex: 0x0000000000602000
+len hex: 0x1000
+found sz :  0x60
+malloc sz : 0x50
+addr : 0x601ffa
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x602012
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x60201a
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x602022
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x60202a
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x602032
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x602042
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x60204a
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x602052
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x60205a
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x602062
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x60206a
+found sz :  0x40
+malloc sz : 0x30
+addr : 0x602072
+found sz :  0x78
+malloc sz : 0x60
+addr : 0x60209d
+found sz :  0x78
+malloc sz : 0x60
+addr : 0x6020ad
+```
