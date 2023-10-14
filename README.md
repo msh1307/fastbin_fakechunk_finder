@@ -1,5 +1,5 @@
 # fastbin_fakechunk_finder
-find fake heap chunk (fastbin)
+glibc with no 0x10 alignment validation in fastbin range.
 ```
 gef➤  source ./fastbin_fakechunk_finder/script.py
 addr hex: 0x0000000000602000
